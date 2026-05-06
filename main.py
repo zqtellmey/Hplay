@@ -21,7 +21,7 @@ except ImportError:
 # ==============================================================================
 # RENEW_URLS = os.getenv("RENEW_URLS")
 RENEW_URLS = [
-    "https://host2play.gratis/server/renew?i=0b2f82c5-df07-4457-a2d9-9d948ce3d12d",
+    "https://host2play.gratis/server/renew?i=xxxxxxxx",
     # 添加更多链接
 ]
 
