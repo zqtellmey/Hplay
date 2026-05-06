@@ -19,7 +19,11 @@ except ImportError:
 # ==============================================================================
 # 配置区域
 # ==============================================================================
-RENEW_URLS = os.getenv("RENEW_URLS")
+# RENEW_URLS = os.getenv("RENEW_URLS")
+RENEW_URLS = [
+    "https://host2play.gratis/server/renew?i=0b2f82c5-df07-4457-a2d9-9d948ce3d12d",
+    # 添加更多链接
+]
 
 MAX_CAPTCHA = 3
 MAX_RENEW_RETRIES_PER_URL = 50
